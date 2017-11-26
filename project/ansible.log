@@ -1,0 +1,938 @@
+2017-11-25 18:00:06,629 p=6474 u=root |  [0;31mERROR! The file ./ec2.py is marked as executable, but failed to execute correctly. If this is not supposed to be an executable script, correct this with `chmod -x ./ec2.py`.
+ERROR! Inventory script (./ec2.py) had an execution error: Traceback (most recent call last):
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 130, in <module>
+    import boto
+ImportError: No module named boto
+ 
+ERROR! ./ec2.py:3: Error parsing host definition ''''': No closing quotation[0m
+2017-11-25 18:02:55,072 p=6508 u=root |  [0;31mERROR! The file ./ec2.py is marked as executable, but failed to execute correctly. If this is not supposed to be an executable script, correct this with `chmod -x ./ec2.py`.
+ERROR! Inventory script (./ec2.py) had an execution error: ERROR: "Working with RDS instances requires boto3 - please install boto3 and try again", while: getting RDS instances 
+ERROR! ./ec2.py:3: Error parsing host definition ''''': No closing quotation[0m
+2017-11-25 18:03:33,527 p=6526 u=root |  [0;31mERROR! The file ./ec2.py is marked as executable, but failed to execute correctly. If this is not supposed to be an executable script, correct this with `chmod -x ./ec2.py`.
+ERROR! Inventory script (./ec2.py) had an execution error: Traceback (most recent call last):
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 1682, in <module>
+    Ec2Inventory()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 193, in __init__
+    self.do_api_calls_update_cache()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 536, in do_api_calls_update_cache
+    self.get_rds_instances_by_region(region)
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 669, in get_rds_instances_by_region
+    client = ec2_utils.boto3_inventory_conn('client', 'rds', region, **self.credentials)
+AttributeError: 'module' object has no attribute 'boto3_inventory_conn'
+ 
+ERROR! ./ec2.py:3: Error parsing host definition ''''': No closing quotation[0m
+2017-11-25 18:06:18,139 p=6545 u=root |  [0;31mERROR! The file ./ec2.py is marked as executable, but failed to execute correctly. If this is not supposed to be an executable script, correct this with `chmod -x ./ec2.py`.
+ERROR! Inventory script (./ec2.py) had an execution error: Traceback (most recent call last):
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 1682, in <module>
+    Ec2Inventory()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 193, in __init__
+    self.do_api_calls_update_cache()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 536, in do_api_calls_update_cache
+    self.get_rds_instances_by_region(region)
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 669, in get_rds_instances_by_region
+    client = ec2_utils.boto3_inventory_conn('client', 'rds', region, **self.credentials)
+AttributeError: 'module' object has no attribute 'boto3_inventory_conn'
+ 
+ERROR! ./ec2.py:3: Error parsing host definition ''''': No closing quotation[0m
+2017-11-25 18:06:57,377 p=6559 u=root |  [0;31mERROR! The file ./ec2.py looks like it should be an executable inventory script, but is not marked executable. Perhaps you want to correct this with `chmod +x ./ec2.py`?[0m
+2017-11-25 18:07:28,966 p=6564 u=root |  [0;31mERROR! The file ./ec2.py is marked as executable, but failed to execute correctly. If this is not supposed to be an executable script, correct this with `chmod -x ./ec2.py`.
+ERROR! Inventory script (./ec2.py) had an execution error: Traceback (most recent call last):
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 1682, in <module>
+    Ec2Inventory()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 193, in __init__
+    self.do_api_calls_update_cache()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 536, in do_api_calls_update_cache
+    self.get_rds_instances_by_region(region)
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 669, in get_rds_instances_by_region
+    client = ec2_utils.boto3_inventory_conn('client', 'rds', region, **self.credentials)
+AttributeError: 'module' object has no attribute 'boto3_inventory_conn'
+ 
+ERROR! ./ec2.py:3: Error parsing host definition ''''': No closing quotation[0m
+2017-11-25 18:08:56,718 p=6579 u=root |  [0;31mERROR! The file ./ec2.py is marked as executable, but failed to execute correctly. If this is not supposed to be an executable script, correct this with `chmod -x ./ec2.py`.
+ERROR! Inventory script (./ec2.py) had an execution error: Traceback (most recent call last):
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 1682, in <module>
+    Ec2Inventory()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 193, in __init__
+    self.do_api_calls_update_cache()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 536, in do_api_calls_update_cache
+    self.get_rds_instances_by_region(region)
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 669, in get_rds_instances_by_region
+    client = ec2_utils.boto3_inventory_conn('client', 'rds', region, **self.credentials)
+AttributeError: 'module' object has no attribute 'boto3_inventory_conn'
+ 
+ERROR! ./ec2.py:3: Error parsing host definition ''''': No closing quotation[0m
+2017-11-25 18:11:16,154 p=6596 u=root |  [0;31mERROR! The file ./ec2.py is marked as executable, but failed to execute correctly. If this is not supposed to be an executable script, correct this with `chmod -x ./ec2.py`.
+ERROR! Inventory script (./ec2.py) had an execution error: Traceback (most recent call last):
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 1682, in <module>
+    Ec2Inventory()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 193, in __init__
+    self.do_api_calls_update_cache()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 536, in do_api_calls_update_cache
+    self.get_rds_instances_by_region(region)
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 669, in get_rds_instances_by_region
+    client = ec2_utils.boto3_inventory_conn('client', 'rds', region, **self.credentials)
+AttributeError: 'module' object has no attribute 'boto3_inventory_conn'
+ 
+ERROR! ./ec2.py:3: Error parsing host definition ''''': No closing quotation[0m
+2017-11-25 18:27:58,196 p=6687 u=root |  [0;31mERROR! The file ./ec2.py is marked as executable, but failed to execute correctly. If this is not supposed to be an executable script, correct this with `chmod -x ./ec2.py`.
+ERROR! Inventory script (./ec2.py) had an execution error: Traceback (most recent call last):
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 1682, in <module>
+    Ec2Inventory()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 193, in __init__
+    self.do_api_calls_update_cache()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 536, in do_api_calls_update_cache
+    self.get_rds_instances_by_region(region)
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 669, in get_rds_instances_by_region
+    client = ec2_utils.boto3_inventory_conn('client', 'rds', region, **self.credentials)
+AttributeError: 'module' object has no attribute 'boto3_inventory_conn'
+ 
+ERROR! ./ec2.py:3: Error parsing host definition ''''': No closing quotation[0m
+2017-11-25 18:37:37,709 p=2434 u=root |  [0;31mERROR! The file ./ec2.py is marked as executable, but failed to execute correctly. If this is not supposed to be an executable script, correct this with `chmod -x ./ec2.py`.
+ERROR! Inventory script (./ec2.py) had an execution error: Traceback (most recent call last):
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 1682, in <module>
+    Ec2Inventory()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 193, in __init__
+    self.do_api_calls_update_cache()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 536, in do_api_calls_update_cache
+    self.get_rds_instances_by_region(region)
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 669, in get_rds_instances_by_region
+    client = ec2_utils.boto3_inventory_conn('client', 'rds', region, **self.credentials)
+AttributeError: 'module' object has no attribute 'boto3_inventory_conn'
+ 
+ERROR! ./ec2.py:3: Error parsing host definition ''''': No closing quotation[0m
+2017-11-25 18:39:32,550 p=2457 u=root |  [0;31mERROR! The file ./ec2.py is marked as executable, but failed to execute correctly. If this is not supposed to be an executable script, correct this with `chmod -x ./ec2.py`.
+ERROR! Inventory script (./ec2.py) had an execution error: Traceback (most recent call last):
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 1682, in <module>
+    Ec2Inventory()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 193, in __init__
+    self.do_api_calls_update_cache()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 536, in do_api_calls_update_cache
+    self.get_rds_instances_by_region(region)
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 669, in get_rds_instances_by_region
+    client = ec2_utils.boto3_inventory_conn('client', 'rds', region, **self.credentials)
+AttributeError: 'module' object has no attribute 'boto3_inventory_conn'
+ 
+ERROR! ./ec2.py:3: Error parsing host definition ''''': No closing quotation[0m
+2017-11-25 18:40:38,662 p=2470 u=root |  [0;31mERROR! The file ec2.py is marked as executable, but failed to execute correctly. If this is not supposed to be an executable script, correct this with `chmod -x ec2.py`.
+ERROR! Inventory script (ec2.py) had an execution error: Traceback (most recent call last):
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 1682, in <module>
+    Ec2Inventory()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 193, in __init__
+    self.do_api_calls_update_cache()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 536, in do_api_calls_update_cache
+    self.get_rds_instances_by_region(region)
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 669, in get_rds_instances_by_region
+    client = ec2_utils.boto3_inventory_conn('client', 'rds', region, **self.credentials)
+AttributeError: 'module' object has no attribute 'boto3_inventory_conn'
+ 
+ERROR! ec2.py:3: Error parsing host definition ''''': No closing quotation[0m
+2017-11-25 18:49:00,161 p=2756 u=root |  [0;31mERROR! The file ./ec2.py is marked as executable, but failed to execute correctly. If this is not supposed to be an executable script, correct this with `chmod -x ./ec2.py`.
+ERROR! Inventory script (./ec2.py) had an execution error: Traceback (most recent call last):
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 1682, in <module>
+    Ec2Inventory()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 193, in __init__
+    self.do_api_calls_update_cache()
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 536, in do_api_calls_update_cache
+    self.get_rds_instances_by_region(region)
+  File "/home/ravi/cloudformationtemplate/project/ec2.py", line 669, in get_rds_instances_by_region
+    client = ec2_utils.boto3_inventory_conn('client', 'rds', region, **self.credentials)
+AttributeError: 'module' object has no attribute 'boto3_inventory_conn'
+ 
+ERROR! ./ec2.py:3: Error parsing host definition ''''': No closing quotation[0m
+2017-11-25 19:05:44,387 p=13605 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 19:05:44,395 p=13605 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 19:05:44,584 p=13605 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 19:05:44,633 p=13605 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 19:05:45,346 p=13605 u=root |  ok: [localhost]
+2017-11-25 19:05:45,352 p=13605 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 19:05:45,707 p=13605 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Region us-east-1c does not seem to be available for aws module boto.ec2. If the region definitely exists, you may need to upgrade boto or extend with endpoints_path"}
+2017-11-25 19:05:45,708 p=13605 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 19:05:45,709 p=13605 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 19:05:45,709 p=13605 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 19:19:11,652 p=2344 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 19:19:11,653 p=2344 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 19:19:11,953 p=2344 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 19:19:11,968 p=2344 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 19:19:12,692 p=2344 u=root |  ok: [localhost]
+2017-11-25 19:19:12,699 p=2344 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 19:19:13,056 p=2344 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Region us-east-1c does not seem to be available for aws module boto.ec2. If the region definitely exists, you may need to upgrade boto or extend with endpoints_path"}
+2017-11-25 19:19:13,057 p=2344 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 19:19:13,057 p=2344 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 19:19:13,057 p=2344 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 19:31:25,272 p=2831 u=root |  ERROR! You must specify a playbook file to run
+2017-11-25 19:49:20,692 p=2989 u=root |  ERROR! You must specify a playbook file to run
+2017-11-25 19:50:32,893 p=2993 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 19:50:32,893 p=2993 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 19:50:33,092 p=2993 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 19:50:33,100 p=2993 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 19:50:33,858 p=2993 u=root |  ok: [localhost]
+2017-11-25 19:50:33,867 p=2993 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 19:50:35,080 p=2993 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Instance creation failed => VPCIdNotSpecified: No default VPC for this user"}
+2017-11-25 19:50:35,081 p=2993 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 19:50:35,081 p=2993 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 19:50:35,081 p=2993 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 19:53:52,308 p=3096 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 19:53:52,308 p=3096 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 19:53:52,322 p=3096 u=root |  ERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/home/ravi/cloudformationtemplate/project/roles/instance/tasks/main.yml': line 8, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+                vpcid=default
+		keypair=raviansible
+^ here
+There appears to be a tab character at the start of the line.
+
+YAML does not use tabs for formatting. Tabs should be replaced with spaces.
+
+For example:
+    - name: update tooling
+      vars:
+        version: 1.2.3
+#    ^--- there is a tab there.
+
+Should be written as:
+    - name: update tooling
+      vars:
+        version: 1.2.3
+# ^--- all spaces here.
+
+exception type: <class 'yaml.scanner.ScannerError'>
+exception: while scanning a plain scalar
+  in "<unicode string>", line 3, column 17
+found a tab character that violate intendation
+  in "<unicode string>", line 8, column 1
+2017-11-25 19:55:15,623 p=3109 u=root |  ERROR! You must specify a playbook file to run
+2017-11-25 19:55:28,386 p=3113 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 19:55:28,386 p=3113 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 19:55:28,398 p=3113 u=root |  ERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/home/ravi/cloudformationtemplate/project/roles/instance/tasks/main.yml': line 8, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+                vpcid=default
+		keypair=raviansible
+^ here
+There appears to be a tab character at the start of the line.
+
+YAML does not use tabs for formatting. Tabs should be replaced with spaces.
+
+For example:
+    - name: update tooling
+      vars:
+        version: 1.2.3
+#    ^--- there is a tab there.
+
+Should be written as:
+    - name: update tooling
+      vars:
+        version: 1.2.3
+# ^--- all spaces here.
+
+exception type: <class 'yaml.scanner.ScannerError'>
+exception: while scanning a plain scalar
+  in "<unicode string>", line 3, column 17
+found a tab character that violate intendation
+  in "<unicode string>", line 8, column 1
+2017-11-25 19:58:37,301 p=3133 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 19:58:37,301 p=3133 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 19:58:37,488 p=3133 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 19:58:37,496 p=3133 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 19:58:38,277 p=3133 u=root |  ok: [localhost]
+2017-11-25 19:58:38,285 p=3133 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 19:58:38,657 p=3133 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Unsupported parameters for (ec2) module: vpcid Supported parameters include: assign_public_ip,aws_access_key,aws_secret_key,count,count_tag,ebs_optimized,ec2_url,exact_count,group,group_id,id,image,instance_ids,instance_initiated_shutdown_behavior,instance_profile_name,instance_tags,instance_type,kernel,key_name,monitoring,network_interfaces,placement_group,private_ip,profile,ramdisk,region,security_token,source_dest_check,spot_launch_group,spot_price,spot_type,spot_wait_timeout,state,tenancy,termination_protection,user_data,validate_certs,volumes,vpc_subnet_id,wait,wait_timeout,zone"}
+2017-11-25 19:58:38,658 p=3133 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 19:58:38,658 p=3133 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 19:58:38,659 p=3133 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 20:01:20,322 p=3231 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 20:01:20,323 p=3231 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 20:01:20,515 p=3231 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 20:01:20,523 p=3231 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 20:01:21,226 p=3231 u=root |  ok: [localhost]
+2017-11-25 20:01:21,235 p=3231 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 20:01:21,599 p=3231 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Unsupported parameters for (ec2) module: vpc_id Supported parameters include: assign_public_ip,aws_access_key,aws_secret_key,count,count_tag,ebs_optimized,ec2_url,exact_count,group,group_id,id,image,instance_ids,instance_initiated_shutdown_behavior,instance_profile_name,instance_tags,instance_type,kernel,key_name,monitoring,network_interfaces,placement_group,private_ip,profile,ramdisk,region,security_token,source_dest_check,spot_launch_group,spot_price,spot_type,spot_wait_timeout,state,tenancy,termination_protection,user_data,validate_certs,volumes,vpc_subnet_id,wait,wait_timeout,zone"}
+2017-11-25 20:01:21,600 p=3231 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 20:01:21,600 p=3231 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 20:01:21,601 p=3231 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 20:04:43,760 p=3325 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 20:04:43,760 p=3325 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 20:04:43,935 p=3325 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 20:04:43,942 p=3325 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 20:04:44,646 p=3325 u=root |  ok: [localhost]
+2017-11-25 20:04:44,655 p=3325 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 20:04:45,441 p=3325 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: <Response><Errors><Error><Code>InvalidSubnetID.NotFound</Code><Message>The subnet ID 'default' does not exist</Message></Error></Errors><RequestID>0870d0d3-1073-4a37-8928-597fa3490c09</RequestID></Response>
+2017-11-25 20:04:45,442 p=3325 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "module_stderr": "Traceback (most recent call last):\n  File \"/tmp/ansible_yc7sJh/ansible_module_ec2.py\", line 1725, in <module>\n    main()\n  File \"/tmp/ansible_yc7sJh/ansible_module_ec2.py\", line 1717, in main\n    (instance_dict_array, new_instance_ids, changed) = create_instances(module, ec2, vpc)\n  File \"/tmp/ansible_yc7sJh/ansible_module_ec2.py\", line 1048, in create_instances\n    vpc_id = vpc.get_all_subnets(subnet_ids=[vpc_subnet_id])[0].vpc_id\n  File \"/usr/local/lib/python2.7/dist-packages/boto/vpc/__init__.py\", line 1152, in get_all_subnets\n    return self.get_list('DescribeSubnets', params, [('item', Subnet)])\n  File \"/usr/local/lib/python2.7/dist-packages/boto/connection.py\", line 1186, in get_list\n    raise self.ResponseError(response.status, response.reason, body)\nboto.exception.EC2ResponseError: EC2ResponseError: 400 Bad Request\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Response><Errors><Error><Code>InvalidSubnetID.NotFound</Code><Message>The subnet ID 'default' does not exist</Message></Error></Errors><RequestID>0870d0d3-1073-4a37-8928-597fa3490c09</RequestID></Response>\n", "module_stdout": "", "msg": "MODULE FAILURE", "rc": 0}
+2017-11-25 20:04:45,443 p=3325 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 20:04:45,443 p=3325 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 20:04:45,443 p=3325 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 20:06:27,518 p=3421 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 20:06:27,519 p=3421 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 20:06:27,706 p=3421 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 20:06:27,713 p=3421 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 20:06:28,433 p=3421 u=root |  ok: [localhost]
+2017-11-25 20:06:28,441 p=3421 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 20:06:29,521 p=3421 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Instance creation failed => VPCIdNotSpecified: No default VPC for this user"}
+2017-11-25 20:06:29,525 p=3421 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 20:06:29,525 p=3421 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 20:06:29,525 p=3421 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 20:16:51,334 p=3579 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 20:16:51,335 p=3579 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 20:16:51,509 p=3579 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 20:16:51,516 p=3579 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 20:16:52,211 p=3579 u=root |  ok: [localhost]
+2017-11-25 20:16:52,220 p=3579 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 20:16:53,292 p=3579 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Instance creation failed => VPCIdNotSpecified: No default VPC for this user"}
+2017-11-25 20:16:53,294 p=3579 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 20:16:53,294 p=3579 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 20:16:53,294 p=3579 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 20:24:28,156 p=3718 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 20:24:28,157 p=3718 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 20:24:28,328 p=3718 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 20:24:28,335 p=3718 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 20:24:29,028 p=3718 u=root |  ok: [localhost]
+2017-11-25 20:24:29,037 p=3718 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 20:24:29,396 p=3718 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Unsupported parameters for (ec2) module: vpc_id Supported parameters include: assign_public_ip,aws_access_key,aws_secret_key,count,count_tag,ebs_optimized,ec2_url,exact_count,group,group_id,id,image,instance_ids,instance_initiated_shutdown_behavior,instance_profile_name,instance_tags,instance_type,kernel,key_name,monitoring,network_interfaces,placement_group,private_ip,profile,ramdisk,region,security_token,source_dest_check,spot_launch_group,spot_price,spot_type,spot_wait_timeout,state,tenancy,termination_protection,user_data,validate_certs,volumes,vpc_subnet_id,wait,wait_timeout,zone"}
+2017-11-25 20:24:29,397 p=3718 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 20:24:29,397 p=3718 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 20:24:29,398 p=3718 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 20:26:10,291 p=3813 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 20:26:10,291 p=3813 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 20:26:10,462 p=3813 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 20:26:10,480 p=3813 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 20:26:11,178 p=3813 u=root |  ok: [localhost]
+2017-11-25 20:26:11,186 p=3813 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 20:26:11,968 p=3813 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: <Response><Errors><Error><Code>InvalidSubnetID.NotFound</Code><Message>The subnet ID 'vpc-ad1484ca' does not exist</Message></Error></Errors><RequestID>e1a6d25e-1875-4169-9cda-ac810270eac2</RequestID></Response>
+2017-11-25 20:26:11,968 p=3813 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "module_stderr": "Traceback (most recent call last):\n  File \"/tmp/ansible_uqX9RC/ansible_module_ec2.py\", line 1725, in <module>\n    main()\n  File \"/tmp/ansible_uqX9RC/ansible_module_ec2.py\", line 1717, in main\n    (instance_dict_array, new_instance_ids, changed) = create_instances(module, ec2, vpc)\n  File \"/tmp/ansible_uqX9RC/ansible_module_ec2.py\", line 1048, in create_instances\n    vpc_id = vpc.get_all_subnets(subnet_ids=[vpc_subnet_id])[0].vpc_id\n  File \"/usr/local/lib/python2.7/dist-packages/boto/vpc/__init__.py\", line 1152, in get_all_subnets\n    return self.get_list('DescribeSubnets', params, [('item', Subnet)])\n  File \"/usr/local/lib/python2.7/dist-packages/boto/connection.py\", line 1186, in get_list\n    raise self.ResponseError(response.status, response.reason, body)\nboto.exception.EC2ResponseError: EC2ResponseError: 400 Bad Request\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Response><Errors><Error><Code>InvalidSubnetID.NotFound</Code><Message>The subnet ID 'vpc-ad1484ca' does not exist</Message></Error></Errors><RequestID>e1a6d25e-1875-4169-9cda-ac810270eac2</RequestID></Response>\n", "module_stdout": "", "msg": "MODULE FAILURE", "rc": 0}
+2017-11-25 20:26:11,970 p=3813 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 20:26:11,970 p=3813 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 20:26:11,970 p=3813 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 20:49:46,162 p=3985 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with script plugin: Inventory script
+(/home/ravi/cloudformationtemplate/project/ec2.py) had an execution error:
+ERROR: "Authentication error retrieving ec2 inventory.  - No AWS_ACCESS_KEY_ID
+or AWS_SECRET_ACCESS_KEY environment vars found  - Boto configs found at
+'~/.boto', but the credentials contained may not be correct", while: getting
+EC2 instances
+
+2017-11-25 20:49:46,162 p=3985 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with ini plugin: /home/ravi/cloudformationtemplate/project/ec2.py:3: Error
+parsing host definition ''''': No closing quotation
+
+2017-11-25 20:49:46,162 p=3985 u=root |   [WARNING]: Unable to parse /home/ravi/cloudformationtemplate/project/ec2.py as
+an inventory source
+
+2017-11-25 20:49:46,162 p=3985 u=root |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-11-25 20:49:46,164 p=3985 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 20:49:46,164 p=3985 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 20:49:46,242 p=3985 u=root |  ERROR! this task 'ec2' has extra params, which is only allowed in the following modules: command, win_command, shell, win_shell, script, include, include_vars, include_tasks, include_role, import_tasks, import_role, add_host, group_by, set_fact, raw, meta
+
+The error appears to have been in '/home/ravi/cloudformationtemplate/project/roles/instance/tasks/main.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Launching an EC2 Instance
+  ^ here
+
+
+The error appears to have been in '/home/ravi/cloudformationtemplate/project/roles/instance/tasks/main.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Launching an EC2 Instance
+  ^ here
+
+exception type: <class 'ansible.errors.AnsibleParserError'>
+exception: this task 'ec2' has extra params, which is only allowed in the following modules: command, win_command, shell, win_shell, script, include, include_vars, include_tasks, include_role, import_tasks, import_role, add_host, group_by, set_fact, raw, meta
+
+The error appears to have been in '/home/ravi/cloudformationtemplate/project/roles/instance/tasks/main.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Launching an EC2 Instance
+  ^ here
+
+2017-11-25 20:52:04,468 p=4005 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with script plugin: Inventory script
+(/home/ravi/cloudformationtemplate/project/ec2.py) had an execution error:
+ERROR: "Authentication error retrieving ec2 inventory.  - No AWS_ACCESS_KEY_ID
+or AWS_SECRET_ACCESS_KEY environment vars found  - Boto configs found at
+'~/.boto', but the credentials contained may not be correct", while: getting
+EC2 instances
+
+2017-11-25 20:52:04,469 p=4005 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with ini plugin: /home/ravi/cloudformationtemplate/project/ec2.py:3: Error
+parsing host definition ''''': No closing quotation
+
+2017-11-25 20:52:04,469 p=4005 u=root |   [WARNING]: Unable to parse /home/ravi/cloudformationtemplate/project/ec2.py as
+an inventory source
+
+2017-11-25 20:52:04,469 p=4005 u=root |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-11-25 20:52:04,470 p=4005 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 20:52:04,470 p=4005 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 20:52:04,640 p=4005 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 20:52:04,649 p=4005 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 20:52:05,339 p=4005 u=root |  ok: [localhost]
+2017-11-25 20:52:05,346 p=4005 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 20:52:05,702 p=4005 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Unsupported parameters for (ec2) module: vpc_id Supported parameters include: assign_public_ip,aws_access_key,aws_secret_key,count,count_tag,ebs_optimized,ec2_url,exact_count,group,group_id,id,image,instance_ids,instance_initiated_shutdown_behavior,instance_profile_name,instance_tags,instance_type,kernel,key_name,monitoring,network_interfaces,placement_group,private_ip,profile,ramdisk,region,security_token,source_dest_check,spot_launch_group,spot_price,spot_type,spot_wait_timeout,state,tenancy,termination_protection,user_data,validate_certs,volumes,vpc_subnet_id,wait,wait_timeout,zone"}
+2017-11-25 20:52:05,703 p=4005 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 20:52:05,704 p=4005 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 20:52:05,704 p=4005 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 20:53:54,113 p=4098 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with script plugin: Inventory script
+(/home/ravi/cloudformationtemplate/project/ec2.py) had an execution error:
+ERROR: "Authentication error retrieving ec2 inventory.  - No AWS_ACCESS_KEY_ID
+or AWS_SECRET_ACCESS_KEY environment vars found  - Boto configs found at
+'~/.boto', but the credentials contained may not be correct", while: getting
+EC2 instances
+
+2017-11-25 20:53:54,114 p=4098 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with ini plugin: /home/ravi/cloudformationtemplate/project/ec2.py:3: Error
+parsing host definition ''''': No closing quotation
+
+2017-11-25 20:53:54,114 p=4098 u=root |   [WARNING]: Unable to parse /home/ravi/cloudformationtemplate/project/ec2.py as
+an inventory source
+
+2017-11-25 20:53:54,114 p=4098 u=root |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-11-25 20:53:54,115 p=4098 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 20:53:54,115 p=4098 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 20:53:54,301 p=4098 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 20:53:54,308 p=4098 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 20:53:54,976 p=4098 u=root |  ok: [localhost]
+2017-11-25 20:53:54,984 p=4098 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 20:53:55,346 p=4098 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Unsupported parameters for (ec2) module: vpc_id Supported parameters include: assign_public_ip,aws_access_key,aws_secret_key,count,count_tag,ebs_optimized,ec2_url,exact_count,group,group_id,id,image,instance_ids,instance_initiated_shutdown_behavior,instance_profile_name,instance_tags,instance_type,kernel,key_name,monitoring,network_interfaces,placement_group,private_ip,profile,ramdisk,region,security_token,source_dest_check,spot_launch_group,spot_price,spot_type,spot_wait_timeout,state,tenancy,termination_protection,user_data,validate_certs,volumes,vpc_subnet_id,wait,wait_timeout,zone"}
+2017-11-25 20:53:55,347 p=4098 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 20:53:55,347 p=4098 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 20:53:55,347 p=4098 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 20:54:45,940 p=4188 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with script plugin: Inventory script
+(/home/ravi/cloudformationtemplate/project/ec2.py) had an execution error:
+ERROR: "Authentication error retrieving ec2 inventory.  - No AWS_ACCESS_KEY_ID
+or AWS_SECRET_ACCESS_KEY environment vars found  - Boto configs found at
+'~/.boto', but the credentials contained may not be correct", while: getting
+EC2 instances
+
+2017-11-25 20:54:45,941 p=4188 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with ini plugin: /home/ravi/cloudformationtemplate/project/ec2.py:3: Error
+parsing host definition ''''': No closing quotation
+
+2017-11-25 20:54:45,941 p=4188 u=root |   [WARNING]: Unable to parse /home/ravi/cloudformationtemplate/project/ec2.py as
+an inventory source
+
+2017-11-25 20:54:45,941 p=4188 u=root |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-11-25 20:54:45,942 p=4188 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 20:54:45,942 p=4188 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 20:54:46,136 p=4188 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 20:54:46,144 p=4188 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 20:54:46,844 p=4188 u=root |  ok: [localhost]
+2017-11-25 20:54:46,851 p=4188 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 20:54:47,702 p=4188 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: <Response><Errors><Error><Code>AuthFailure</Code><Message>AWS was not able to validate the provided access credentials</Message></Error></Errors><RequestID>3c32e142-020c-418e-94cb-a0189f6d49f2</RequestID></Response>
+2017-11-25 20:54:47,702 p=4188 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "module_stderr": "Traceback (most recent call last):\n  File \"/tmp/ansible_QL7vyL/ansible_module_ec2.py\", line 1725, in <module>\n    main()\n  File \"/tmp/ansible_QL7vyL/ansible_module_ec2.py\", line 1717, in main\n    (instance_dict_array, new_instance_ids, changed) = create_instances(module, ec2, vpc)\n  File \"/tmp/ansible_QL7vyL/ansible_module_ec2.py\", line 1070, in create_instances\n    grp_details = ec2.get_all_security_groups(group_ids=group_id)\n  File \"/usr/local/lib/python2.7/dist-packages/boto/ec2/connection.py\", line 2984, in get_all_security_groups\n    [('item', SecurityGroup)], verb='POST')\n  File \"/usr/local/lib/python2.7/dist-packages/boto/connection.py\", line 1186, in get_list\n    raise self.ResponseError(response.status, response.reason, body)\nboto.exception.EC2ResponseError: EC2ResponseError: 401 Unauthorized\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Response><Errors><Error><Code>AuthFailure</Code><Message>AWS was not able to validate the provided access credentials</Message></Error></Errors><RequestID>3c32e142-020c-418e-94cb-a0189f6d49f2</RequestID></Response>\n", "module_stdout": "", "msg": "MODULE FAILURE", "rc": 0}
+2017-11-25 20:54:47,703 p=4188 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 20:54:47,703 p=4188 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 20:54:47,703 p=4188 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 20:55:40,073 p=4278 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with script plugin: Inventory script
+(/home/ravi/cloudformationtemplate/project/ec2.py) had an execution error:
+ERROR: "Authentication error retrieving ec2 inventory.  - No AWS_ACCESS_KEY_ID
+or AWS_SECRET_ACCESS_KEY environment vars found  - Boto configs found at
+'~/.boto', but the credentials contained may not be correct", while: getting
+EC2 instances
+
+2017-11-25 20:55:40,074 p=4278 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with ini plugin: /home/ravi/cloudformationtemplate/project/ec2.py:3: Error
+parsing host definition ''''': No closing quotation
+
+2017-11-25 20:55:40,074 p=4278 u=root |   [WARNING]: Unable to parse /home/ravi/cloudformationtemplate/project/ec2.py as
+an inventory source
+
+2017-11-25 20:55:40,075 p=4278 u=root |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-11-25 20:55:40,076 p=4278 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 20:55:40,076 p=4278 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 20:55:40,257 p=4278 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 20:55:40,264 p=4278 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 20:55:40,940 p=4278 u=root |  ok: [localhost]
+2017-11-25 20:55:40,948 p=4278 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 20:55:41,711 p=4278 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: <Response><Errors><Error><Code>AuthFailure</Code><Message>AWS was not able to validate the provided access credentials</Message></Error></Errors><RequestID>d4ee4dac-a9e9-42dd-a0ef-3b31d08420d8</RequestID></Response>
+2017-11-25 20:55:41,712 p=4278 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "module_stderr": "Traceback (most recent call last):\n  File \"/tmp/ansible_ZSTpAZ/ansible_module_ec2.py\", line 1725, in <module>\n    main()\n  File \"/tmp/ansible_ZSTpAZ/ansible_module_ec2.py\", line 1717, in main\n    (instance_dict_array, new_instance_ids, changed) = create_instances(module, ec2, vpc)\n  File \"/tmp/ansible_ZSTpAZ/ansible_module_ec2.py\", line 1070, in create_instances\n    grp_details = ec2.get_all_security_groups(group_ids=group_id)\n  File \"/usr/local/lib/python2.7/dist-packages/boto/ec2/connection.py\", line 2984, in get_all_security_groups\n    [('item', SecurityGroup)], verb='POST')\n  File \"/usr/local/lib/python2.7/dist-packages/boto/connection.py\", line 1186, in get_list\n    raise self.ResponseError(response.status, response.reason, body)\nboto.exception.EC2ResponseError: EC2ResponseError: 401 Unauthorized\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Response><Errors><Error><Code>AuthFailure</Code><Message>AWS was not able to validate the provided access credentials</Message></Error></Errors><RequestID>d4ee4dac-a9e9-42dd-a0ef-3b31d08420d8</RequestID></Response>\n", "module_stdout": "", "msg": "MODULE FAILURE", "rc": 0}
+2017-11-25 20:55:41,713 p=4278 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 20:55:41,713 p=4278 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 20:55:41,714 p=4278 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 20:56:15,420 p=4366 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with script plugin: Inventory script
+(/home/ravi/cloudformationtemplate/project/ec2.py) had an execution error:
+ERROR: "Authentication error retrieving ec2 inventory.  - No AWS_ACCESS_KEY_ID
+or AWS_SECRET_ACCESS_KEY environment vars found  - Boto configs found at
+'~/.boto', but the credentials contained may not be correct", while: getting
+EC2 instances
+
+2017-11-25 20:56:15,420 p=4366 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with ini plugin: /home/ravi/cloudformationtemplate/project/ec2.py:3: Error
+parsing host definition ''''': No closing quotation
+
+2017-11-25 20:56:15,420 p=4366 u=root |   [WARNING]: Unable to parse /home/ravi/cloudformationtemplate/project/ec2.py as
+an inventory source
+
+2017-11-25 20:56:15,421 p=4366 u=root |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-11-25 20:56:15,421 p=4366 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 20:56:15,422 p=4366 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 20:56:15,596 p=4366 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 20:56:15,603 p=4366 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 20:56:16,299 p=4366 u=root |  ok: [localhost]
+2017-11-25 20:56:16,307 p=4366 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 20:56:17,043 p=4366 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: <Response><Errors><Error><Code>AuthFailure</Code><Message>AWS was not able to validate the provided access credentials</Message></Error></Errors><RequestID>1d60b8e1-0b23-4c77-adcf-69299953d1dc</RequestID></Response>
+2017-11-25 20:56:17,043 p=4366 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "module_stderr": "Traceback (most recent call last):\n  File \"/tmp/ansible_U53f6r/ansible_module_ec2.py\", line 1725, in <module>\n    main()\n  File \"/tmp/ansible_U53f6r/ansible_module_ec2.py\", line 1717, in main\n    (instance_dict_array, new_instance_ids, changed) = create_instances(module, ec2, vpc)\n  File \"/tmp/ansible_U53f6r/ansible_module_ec2.py\", line 1070, in create_instances\n    grp_details = ec2.get_all_security_groups(group_ids=group_id)\n  File \"/usr/local/lib/python2.7/dist-packages/boto/ec2/connection.py\", line 2984, in get_all_security_groups\n    [('item', SecurityGroup)], verb='POST')\n  File \"/usr/local/lib/python2.7/dist-packages/boto/connection.py\", line 1186, in get_list\n    raise self.ResponseError(response.status, response.reason, body)\nboto.exception.EC2ResponseError: EC2ResponseError: 401 Unauthorized\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Response><Errors><Error><Code>AuthFailure</Code><Message>AWS was not able to validate the provided access credentials</Message></Error></Errors><RequestID>1d60b8e1-0b23-4c77-adcf-69299953d1dc</RequestID></Response>\n", "module_stdout": "", "msg": "MODULE FAILURE", "rc": 0}
+2017-11-25 20:56:17,045 p=4366 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 20:56:17,045 p=4366 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 20:56:17,045 p=4366 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 21:45:51,556 p=4484 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 21:45:51,556 p=4484 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 21:45:51,724 p=4484 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 21:45:51,732 p=4484 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 21:45:52,369 p=4484 u=root |  ok: [localhost]
+2017-11-25 21:45:52,397 p=4484 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 21:45:52,781 p=4484 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Unsupported parameters for (ec2) module: vpc_id Supported parameters include: assign_public_ip,aws_access_key,aws_secret_key,count,count_tag,ebs_optimized,ec2_url,exact_count,group,group_id,id,image,instance_ids,instance_initiated_shutdown_behavior,instance_profile_name,instance_tags,instance_type,kernel,key_name,monitoring,network_interfaces,placement_group,private_ip,profile,ramdisk,region,security_token,source_dest_check,spot_launch_group,spot_price,spot_type,spot_wait_timeout,state,tenancy,termination_protection,user_data,validate_certs,volumes,vpc_subnet_id,wait,wait_timeout,zone"}
+2017-11-25 21:45:52,783 p=4484 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 21:45:52,783 p=4484 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 21:45:52,783 p=4484 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 21:49:57,328 p=4592 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 21:49:57,328 p=4592 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 21:49:57,516 p=4592 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 21:49:57,525 p=4592 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 21:49:58,215 p=4592 u=root |  ok: [localhost]
+2017-11-25 21:49:58,223 p=4592 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 21:49:59,709 p=4592 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Instance creation failed => VPCIdNotSpecified: No default VPC for this user"}
+2017-11-25 21:49:59,711 p=4592 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 21:49:59,711 p=4592 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 21:49:59,711 p=4592 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 21:57:55,040 p=4872 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 21:57:55,041 p=4872 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 21:57:55,247 p=4872 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 21:57:55,256 p=4872 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 21:57:56,078 p=4872 u=root |  ok: [localhost]
+2017-11-25 21:57:56,086 p=4872 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 21:57:57,159 p=4872 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Instance creation failed => VPCIdNotSpecified: No default VPC for this user"}
+2017-11-25 21:57:57,163 p=4872 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 21:57:57,163 p=4872 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 21:57:57,163 p=4872 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 22:03:59,922 p=5006 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with script plugin: Inventory script
+(/home/ravi/cloudformationtemplate/project/ec2.py) had an execution error:
+ERROR: "Authentication error retrieving ec2 inventory.  - No AWS_ACCESS_KEY_ID
+or AWS_SECRET_ACCESS_KEY environment vars found  - Boto configs found at
+'~/.boto', but the credentials contained may not be correct", while: getting
+EC2 instances
+
+2017-11-25 22:03:59,923 p=5006 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with ini plugin: /home/ravi/cloudformationtemplate/project/ec2.py:3: Error
+parsing host definition ''''': No closing quotation
+
+2017-11-25 22:03:59,923 p=5006 u=root |   [WARNING]: Unable to parse /home/ravi/cloudformationtemplate/project/ec2.py as
+an inventory source
+
+2017-11-25 22:03:59,923 p=5006 u=root |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-11-25 22:03:59,924 p=5006 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 22:03:59,925 p=5006 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 22:04:00,113 p=5006 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 22:04:00,120 p=5006 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 22:04:00,819 p=5006 u=root |  ok: [localhost]
+2017-11-25 22:04:00,829 p=5006 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 22:04:01,591 p=5006 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: <Response><Errors><Error><Code>AuthFailure</Code><Message>AWS was not able to validate the provided access credentials</Message></Error></Errors><RequestID>d08cf708-4e28-4ad7-a7cd-c16f05e53533</RequestID></Response>
+2017-11-25 22:04:01,591 p=5006 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "module_stderr": "Traceback (most recent call last):\n  File \"/tmp/ansible_ZDynfW/ansible_module_ec2.py\", line 1725, in <module>\n    main()\n  File \"/tmp/ansible_ZDynfW/ansible_module_ec2.py\", line 1717, in main\n    (instance_dict_array, new_instance_ids, changed) = create_instances(module, ec2, vpc)\n  File \"/tmp/ansible_ZDynfW/ansible_module_ec2.py\", line 1070, in create_instances\n    grp_details = ec2.get_all_security_groups(group_ids=group_id)\n  File \"/usr/local/lib/python2.7/dist-packages/boto/ec2/connection.py\", line 2984, in get_all_security_groups\n    [('item', SecurityGroup)], verb='POST')\n  File \"/usr/local/lib/python2.7/dist-packages/boto/connection.py\", line 1186, in get_list\n    raise self.ResponseError(response.status, response.reason, body)\nboto.exception.EC2ResponseError: EC2ResponseError: 401 Unauthorized\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Response><Errors><Error><Code>AuthFailure</Code><Message>AWS was not able to validate the provided access credentials</Message></Error></Errors><RequestID>d08cf708-4e28-4ad7-a7cd-c16f05e53533</RequestID></Response>\n", "module_stdout": "", "msg": "MODULE FAILURE", "rc": 0}
+2017-11-25 22:04:01,593 p=5006 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 22:04:01,593 p=5006 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 22:04:01,593 p=5006 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 22:11:31,940 p=5122 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 22:11:31,940 p=5122 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 22:11:32,110 p=5122 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 22:11:32,117 p=5122 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 22:11:32,820 p=5122 u=root |  ok: [localhost]
+2017-11-25 22:11:32,828 p=5122 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 22:11:33,860 p=5122 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Instance creation failed => VPCIdNotSpecified: No default VPC for this user"}
+2017-11-25 22:11:33,862 p=5122 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 22:11:33,862 p=5122 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 22:11:33,862 p=5122 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 22:13:32,438 p=5226 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 22:13:32,439 p=5226 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 22:13:32,604 p=5226 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 22:13:32,616 p=5226 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 22:13:33,282 p=5226 u=root |  ok: [localhost]
+2017-11-25 22:13:33,289 p=5226 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 22:13:34,643 p=5226 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "No handler was ready to authenticate. 1 handlers were checked. ['HmacAuthV4Handler'] Check your credentials"}
+2017-11-25 22:13:34,644 p=5226 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 22:13:34,645 p=5226 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 22:13:34,645 p=5226 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 22:14:10,072 p=5317 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 22:14:10,072 p=5317 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 22:14:10,233 p=5317 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 22:14:10,240 p=5317 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 22:14:10,892 p=5317 u=root |  ok: [localhost]
+2017-11-25 22:14:10,900 p=5317 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 22:14:12,128 p=5317 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Instance creation failed => VPCIdNotSpecified: No default VPC for this user"}
+2017-11-25 22:14:12,130 p=5317 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 22:14:12,130 p=5317 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 22:14:12,131 p=5317 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 22:19:43,053 p=5430 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 22:19:43,054 p=5430 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 22:19:43,246 p=5430 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 22:19:43,254 p=5430 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 22:19:43,911 p=5430 u=root |  ok: [localhost]
+2017-11-25 22:19:43,919 p=5430 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 22:19:44,962 p=5430 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "Instance creation failed => VPCIdNotSpecified: No default VPC for this user"}
+2017-11-25 22:19:44,964 p=5430 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 22:19:44,964 p=5430 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 22:19:44,964 p=5430 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 22:22:37,528 p=5531 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 22:22:37,528 p=5531 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 22:22:37,699 p=5531 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 22:22:37,707 p=5531 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 22:22:38,354 p=5531 u=root |  ok: [localhost]
+2017-11-25 22:22:38,361 p=5531 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 22:22:56,274 p=5531 u=root |  changed: [localhost -> localhost]
+2017-11-25 22:22:56,279 p=5531 u=root |  TASK [instance : Add all instance public IPs to host group] ********************
+2017-11-25 22:22:56,316 p=5531 u=root |  changed: [localhost] => (item={u'kernel': None, u'root_device_type': u'ebs', u'private_dns_name': u'ip-172-31-87-91.ec2.internal', u'public_ip': u'54.87.233.199', u'private_ip': u'172.31.87.91', u'id': u'i-086280eb633883021', u'ebs_optimized': False, u'state': u'running', u'virtualization_type': u'hvm', u'architecture': u'x86_64', u'ramdisk': None, u'block_device_mapping': {u'/dev/xvda': {u'status': u'attached', u'delete_on_termination': True, u'volume_id': u'vol-00e4d09a461e79d4d'}}, u'key_name': u'raviansible', u'image_id': u'ami-55ef662f', u'tenancy': u'default', u'groups': {u'sg-a1ed54d4': u'default'}, u'public_dns_name': u'ec2-54-87-233-199.compute-1.amazonaws.com', u'state_code': 16, u'tags': {}, u'placement': u'us-east-1d', u'ami_launch_index': u'0', u'dns_name': u'ec2-54-87-233-199.compute-1.amazonaws.com', u'region': u'us-east-1', u'launch_time': u'2017-11-26T06:22:39.000Z', u'instance_type': u't2.micro', u'root_device_name': u'/dev/xvda', u'hypervisor': u'xen'})
+2017-11-25 22:22:56,344 p=5531 u=root |  TASK [instance : Wait for SSH to come up] **************************************
+2017-11-25 22:28:17,911 p=5531 u=root |  failed: [localhost -> localhost] (item={u'kernel': None, u'root_device_type': u'ebs', u'private_dns_name': u'ip-172-31-87-91.ec2.internal', u'public_ip': u'54.87.233.199', u'private_ip': u'172.31.87.91', u'id': u'i-086280eb633883021', u'ebs_optimized': False, u'state': u'running', u'virtualization_type': u'hvm', u'architecture': u'x86_64', u'ramdisk': None, u'block_device_mapping': {u'/dev/xvda': {u'status': u'attached', u'delete_on_termination': True, u'volume_id': u'vol-00e4d09a461e79d4d'}}, u'key_name': u'raviansible', u'image_id': u'ami-55ef662f', u'tenancy': u'default', u'groups': {u'sg-a1ed54d4': u'default'}, u'public_dns_name': u'ec2-54-87-233-199.compute-1.amazonaws.com', u'state_code': 16, u'tags': {}, u'placement': u'us-east-1d', u'ami_launch_index': u'0', u'dns_name': u'ec2-54-87-233-199.compute-1.amazonaws.com', u'region': u'us-east-1', u'launch_time': u'2017-11-26T06:22:39.000Z', u'instance_type': u't2.micro', u'root_device_name': u'/dev/xvda', u'hypervisor': u'xen'}) => {"changed": false, "elapsed": 321, "failed": true, "item": {"ami_launch_index": "0", "architecture": "x86_64", "block_device_mapping": {"/dev/xvda": {"delete_on_termination": true, "status": "attached", "volume_id": "vol-00e4d09a461e79d4d"}}, "dns_name": "ec2-54-87-233-199.compute-1.amazonaws.com", "ebs_optimized": false, "groups": {"sg-a1ed54d4": "default"}, "hypervisor": "xen", "id": "i-086280eb633883021", "image_id": "ami-55ef662f", "instance_type": "t2.micro", "kernel": null, "key_name": "raviansible", "launch_time": "2017-11-26T06:22:39.000Z", "placement": "us-east-1d", "private_dns_name": "ip-172-31-87-91.ec2.internal", "private_ip": "172.31.87.91", "public_dns_name": "ec2-54-87-233-199.compute-1.amazonaws.com", "public_ip": "54.87.233.199", "ramdisk": null, "region": "us-east-1", "root_device_name": "/dev/xvda", "root_device_type": "ebs", "state": "running", "state_code": 16, "tags": {}, "tenancy": "default", "virtualization_type": "hvm"}, "msg": "Timeout when waiting for 54.87.233.199:22"}
+2017-11-25 22:28:17,913 p=5531 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 22:28:17,914 p=5531 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 22:28:17,914 p=5531 u=root |  localhost                  : ok=3    changed=2    unreachable=0    failed=1   
+2017-11-25 22:35:50,120 p=5743 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 22:35:50,128 p=5743 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 22:35:50,801 p=5743 u=root |  ok: [localhost]
+2017-11-25 22:35:50,808 p=5743 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 22:35:51,676 p=5743 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: <Response><Errors><Error><Code>InvalidGroup.NotFound</Code><Message>The security group 'sg-a7ae12d2' does not exist</Message></Error></Errors><RequestID>95a1107c-b583-4f22-8ff8-79b9a4594099</RequestID></Response>
+2017-11-25 22:35:51,676 p=5743 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "module_stderr": "Traceback (most recent call last):\n  File \"/tmp/ansible_2coRxy/ansible_module_ec2.py\", line 1725, in <module>\n    main()\n  File \"/tmp/ansible_2coRxy/ansible_module_ec2.py\", line 1717, in main\n    (instance_dict_array, new_instance_ids, changed) = create_instances(module, ec2, vpc)\n  File \"/tmp/ansible_2coRxy/ansible_module_ec2.py\", line 1070, in create_instances\n    grp_details = ec2.get_all_security_groups(group_ids=group_id)\n  File \"/usr/local/lib/python2.7/dist-packages/boto/ec2/connection.py\", line 2984, in get_all_security_groups\n    [('item', SecurityGroup)], verb='POST')\n  File \"/usr/local/lib/python2.7/dist-packages/boto/connection.py\", line 1186, in get_list\n    raise self.ResponseError(response.status, response.reason, body)\nboto.exception.EC2ResponseError: EC2ResponseError: 400 Bad Request\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Response><Errors><Error><Code>InvalidGroup.NotFound</Code><Message>The security group 'sg-a7ae12d2' does not exist</Message></Error></Errors><RequestID>95a1107c-b583-4f22-8ff8-79b9a4594099</RequestID></Response>\n", "module_stdout": "", "msg": "MODULE FAILURE", "rc": 0}
+2017-11-25 22:35:51,678 p=5743 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 22:35:51,678 p=5743 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 22:35:51,678 p=5743 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-25 23:01:47,988 p=5961 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-25 23:01:47,989 p=5961 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-25 23:01:48,158 p=5961 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-25 23:01:48,166 p=5961 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-25 23:01:48,850 p=5961 u=root |  ok: [localhost]
+2017-11-25 23:01:48,859 p=5961 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-25 23:01:49,637 p=5961 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: <Response><Errors><Error><Code>InvalidGroup.NotFound</Code><Message>The security group 'sg-a7ae12d2' does not exist</Message></Error></Errors><RequestID>4be8973c-71f7-4103-a12d-69d00acdb9e4</RequestID></Response>
+2017-11-25 23:01:49,637 p=5961 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "module_stderr": "Traceback (most recent call last):\n  File \"/tmp/ansible_EeS2Ug/ansible_module_ec2.py\", line 1725, in <module>\n    main()\n  File \"/tmp/ansible_EeS2Ug/ansible_module_ec2.py\", line 1717, in main\n    (instance_dict_array, new_instance_ids, changed) = create_instances(module, ec2, vpc)\n  File \"/tmp/ansible_EeS2Ug/ansible_module_ec2.py\", line 1070, in create_instances\n    grp_details = ec2.get_all_security_groups(group_ids=group_id)\n  File \"/usr/local/lib/python2.7/dist-packages/boto/ec2/connection.py\", line 2984, in get_all_security_groups\n    [('item', SecurityGroup)], verb='POST')\n  File \"/usr/local/lib/python2.7/dist-packages/boto/connection.py\", line 1186, in get_list\n    raise self.ResponseError(response.status, response.reason, body)\nboto.exception.EC2ResponseError: EC2ResponseError: 400 Bad Request\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Response><Errors><Error><Code>InvalidGroup.NotFound</Code><Message>The security group 'sg-a7ae12d2' does not exist</Message></Error></Errors><RequestID>4be8973c-71f7-4103-a12d-69d00acdb9e4</RequestID></Response>\n", "module_stdout": "", "msg": "MODULE FAILURE", "rc": 0}
+2017-11-25 23:01:49,639 p=5961 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-25 23:01:49,639 p=5961 u=root |  PLAY RECAP *********************************************************************
+2017-11-25 23:01:49,639 p=5961 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-26 11:19:25,425 p=6325 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with script plugin: Inventory script
+(/home/ravi/cloudformationtemplate/project/ec2.py) had an execution error:
+Traceback (most recent call last):   File
+"/home/ravi/cloudformationtemplate/project/ec2.py", line 1682, in <module>
+Ec2Inventory()   File "/home/ravi/cloudformationtemplate/project/ec2.py", line
+193, in __init__     self.do_api_calls_update_cache()   File
+"/home/ravi/cloudformationtemplate/project/ec2.py", line 536, in
+do_api_calls_update_cache     self.get_rds_instances_by_region(region)   File
+"/home/ravi/cloudformationtemplate/project/ec2.py", line 670, in
+get_rds_instances_by_region     db_instances = client.describe_db_instances()
+File "/usr/local/lib/python2.7/dist-packages/botocore/client.py", line 314, in
+_api_call     return self._make_api_call(operation_name, kwargs)   File
+"/usr/local/lib/python2.7/dist-packages/botocore/client.py", line 612, in
+_make_api_call     raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (AccessDenied) when calling
+the DescribeDBInstances operation: User:
+arn:aws:iam::678815895453:user/raviansible is not authorized to perform:
+rds:DescribeDBInstances
+
+2017-11-26 11:19:25,425 p=6325 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with ini plugin: /home/ravi/cloudformationtemplate/project/ec2.py:3: Error
+parsing host definition ''''': No closing quotation
+
+2017-11-26 11:19:25,425 p=6325 u=root |   [WARNING]: Unable to parse /home/ravi/cloudformationtemplate/project/ec2.py as
+an inventory source
+
+2017-11-26 11:19:25,425 p=6325 u=root |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-11-26 11:19:25,426 p=6325 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-26 11:19:25,427 p=6325 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-26 11:19:25,588 p=6325 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-26 11:19:25,595 p=6325 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-26 11:19:26,213 p=6325 u=root |  ok: [localhost]
+2017-11-26 11:19:26,222 p=6325 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-26 11:19:27,096 p=6325 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: <Response><Errors><Error><Code>InvalidGroup.NotFound</Code><Message>The security group 'sg-a7ae12d2' does not exist</Message></Error></Errors><RequestID>097a5b82-4fdd-41db-b53b-024837f43bfd</RequestID></Response>
+2017-11-26 11:19:27,097 p=6325 u=root |  fatal: [localhost -> localhost]: FAILED! => {"changed": false, "failed": true, "module_stderr": "Traceback (most recent call last):\n  File \"/tmp/ansible_vGzmL7/ansible_module_ec2.py\", line 1725, in <module>\n    main()\n  File \"/tmp/ansible_vGzmL7/ansible_module_ec2.py\", line 1717, in main\n    (instance_dict_array, new_instance_ids, changed) = create_instances(module, ec2, vpc)\n  File \"/tmp/ansible_vGzmL7/ansible_module_ec2.py\", line 1070, in create_instances\n    grp_details = ec2.get_all_security_groups(group_ids=group_id)\n  File \"/usr/local/lib/python2.7/dist-packages/boto/ec2/connection.py\", line 2984, in get_all_security_groups\n    [('item', SecurityGroup)], verb='POST')\n  File \"/usr/local/lib/python2.7/dist-packages/boto/connection.py\", line 1186, in get_list\n    raise self.ResponseError(response.status, response.reason, body)\nboto.exception.EC2ResponseError: EC2ResponseError: 400 Bad Request\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Response><Errors><Error><Code>InvalidGroup.NotFound</Code><Message>The security group 'sg-a7ae12d2' does not exist</Message></Error></Errors><RequestID>097a5b82-4fdd-41db-b53b-024837f43bfd</RequestID></Response>\n", "module_stdout": "", "msg": "MODULE FAILURE", "rc": 0}
+2017-11-26 11:19:27,098 p=6325 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-26 11:19:27,098 p=6325 u=root |  PLAY RECAP *********************************************************************
+2017-11-26 11:19:27,098 p=6325 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-11-26 11:22:03,641 p=6425 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with script plugin: Inventory script
+(/home/ravi/cloudformationtemplate/project/ec2.py) had an execution error:
+Traceback (most recent call last):   File
+"/home/ravi/cloudformationtemplate/project/ec2.py", line 1682, in <module>
+Ec2Inventory()   File "/home/ravi/cloudformationtemplate/project/ec2.py", line
+193, in __init__     self.do_api_calls_update_cache()   File
+"/home/ravi/cloudformationtemplate/project/ec2.py", line 536, in
+do_api_calls_update_cache     self.get_rds_instances_by_region(region)   File
+"/home/ravi/cloudformationtemplate/project/ec2.py", line 670, in
+get_rds_instances_by_region     db_instances = client.describe_db_instances()
+File "/usr/local/lib/python2.7/dist-packages/botocore/client.py", line 314, in
+_api_call     return self._make_api_call(operation_name, kwargs)   File
+"/usr/local/lib/python2.7/dist-packages/botocore/client.py", line 612, in
+_make_api_call     raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (AccessDenied) when calling
+the DescribeDBInstances operation: User:
+arn:aws:iam::678815895453:user/raviansible is not authorized to perform:
+rds:DescribeDBInstances
+
+2017-11-26 11:22:03,641 p=6425 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with ini plugin: /home/ravi/cloudformationtemplate/project/ec2.py:3: Error
+parsing host definition ''''': No closing quotation
+
+2017-11-26 11:22:03,641 p=6425 u=root |   [WARNING]: Unable to parse /home/ravi/cloudformationtemplate/project/ec2.py as
+an inventory source
+
+2017-11-26 11:22:03,642 p=6425 u=root |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-11-26 11:22:03,643 p=6425 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-26 11:22:03,643 p=6425 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-26 11:22:03,827 p=6425 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-26 11:22:03,836 p=6425 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-26 11:22:04,485 p=6425 u=root |  ok: [localhost]
+2017-11-26 11:22:04,492 p=6425 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-26 11:22:27,906 p=6425 u=root |  changed: [localhost -> localhost]
+2017-11-26 11:22:27,911 p=6425 u=root |  TASK [instance : Add all instance public IPs to host group] ********************
+2017-11-26 11:22:27,954 p=6425 u=root |  changed: [localhost] => (item={u'kernel': None, u'root_device_type': u'ebs', u'private_dns_name': u'ip-172-31-91-215.ec2.internal', u'public_ip': u'184.72.185.59', u'private_ip': u'172.31.91.215', u'id': u'i-0f515c93869cdb44d', u'ebs_optimized': False, u'state': u'running', u'virtualization_type': u'hvm', u'architecture': u'x86_64', u'ramdisk': None, u'block_device_mapping': {u'/dev/xvda': {u'status': u'attached', u'delete_on_termination': True, u'volume_id': u'vol-01db4bb38f924c97b'}}, u'key_name': u'raviansible', u'image_id': u'ami-55ef662f', u'tenancy': u'default', u'groups': {u'sg-a1ed54d4': u'default'}, u'public_dns_name': u'ec2-184-72-185-59.compute-1.amazonaws.com', u'state_code': 16, u'tags': {}, u'placement': u'us-east-1d', u'ami_launch_index': u'0', u'dns_name': u'ec2-184-72-185-59.compute-1.amazonaws.com', u'region': u'us-east-1', u'launch_time': u'2017-11-26T19:22:06.000Z', u'instance_type': u't2.micro', u'root_device_name': u'/dev/xvda', u'hypervisor': u'xen'})
+2017-11-26 11:22:27,969 p=6425 u=root |  TASK [instance : Wait for SSH to come up] **************************************
+2017-11-26 11:23:28,389 p=6425 u=root |  ok: [localhost -> localhost] => (item={u'kernel': None, u'root_device_type': u'ebs', u'private_dns_name': u'ip-172-31-91-215.ec2.internal', u'public_ip': u'184.72.185.59', u'private_ip': u'172.31.91.215', u'id': u'i-0f515c93869cdb44d', u'ebs_optimized': False, u'state': u'running', u'virtualization_type': u'hvm', u'architecture': u'x86_64', u'ramdisk': None, u'block_device_mapping': {u'/dev/xvda': {u'status': u'attached', u'delete_on_termination': True, u'volume_id': u'vol-01db4bb38f924c97b'}}, u'key_name': u'raviansible', u'image_id': u'ami-55ef662f', u'tenancy': u'default', u'groups': {u'sg-a1ed54d4': u'default'}, u'public_dns_name': u'ec2-184-72-185-59.compute-1.amazonaws.com', u'state_code': 16, u'tags': {}, u'placement': u'us-east-1d', u'ami_launch_index': u'0', u'dns_name': u'ec2-184-72-185-59.compute-1.amazonaws.com', u'region': u'us-east-1', u'launch_time': u'2017-11-26T19:22:06.000Z', u'instance_type': u't2.micro', u'root_device_name': u'/dev/xvda', u'hypervisor': u'xen'})
+2017-11-26 11:23:28,394 p=6425 u=root |  PLAY [Install Tomcat & Deploy files] *******************************************
+2017-11-26 11:23:28,413 p=6425 u=root |  TASK [tomcatinstall : Install Java 1.7] ****************************************
+2017-11-26 11:23:29,323 p=6425 u=root |  fatal: [184.72.185.59]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '184.72.185.59' (ECDSA) to the list of known hosts.\r\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @\r\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\nPermissions 0644 for '/root/raviansible.pem' are too open.\r\nIt is required that your private key files are NOT accessible by others.\r\nThis private key will be ignored.\r\nLoad key \"/root/raviansible.pem\": bad permissions\r\nPermission denied (publickey).\r\n", "unreachable": true}
+2017-11-26 11:23:29,325 p=6425 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-26 11:23:29,325 p=6425 u=root |  PLAY RECAP *********************************************************************
+2017-11-26 11:23:29,325 p=6425 u=root |  184.72.185.59              : ok=0    changed=0    unreachable=1    failed=0   
+2017-11-26 11:23:29,325 p=6425 u=root |  localhost                  : ok=4    changed=2    unreachable=0    failed=0   
+2017-11-26 11:28:44,387 p=6608 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with script plugin: Inventory script
+(/home/ravi/cloudformationtemplate/project/ec2.py) had an execution error:
+Traceback (most recent call last):   File
+"/home/ravi/cloudformationtemplate/project/ec2.py", line 1682, in <module>
+Ec2Inventory()   File "/home/ravi/cloudformationtemplate/project/ec2.py", line
+193, in __init__     self.do_api_calls_update_cache()   File
+"/home/ravi/cloudformationtemplate/project/ec2.py", line 536, in
+do_api_calls_update_cache     self.get_rds_instances_by_region(region)   File
+"/home/ravi/cloudformationtemplate/project/ec2.py", line 670, in
+get_rds_instances_by_region     db_instances = client.describe_db_instances()
+File "/usr/local/lib/python2.7/dist-packages/botocore/client.py", line 314, in
+_api_call     return self._make_api_call(operation_name, kwargs)   File
+"/usr/local/lib/python2.7/dist-packages/botocore/client.py", line 612, in
+_make_api_call     raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (AccessDenied) when calling
+the DescribeDBInstances operation: User:
+arn:aws:iam::678815895453:user/raviansible is not authorized to perform:
+rds:DescribeDBInstances
+
+2017-11-26 11:28:44,387 p=6608 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with ini plugin: /home/ravi/cloudformationtemplate/project/ec2.py:3: Error
+parsing host definition ''''': No closing quotation
+
+2017-11-26 11:28:44,387 p=6608 u=root |   [WARNING]: Unable to parse /home/ravi/cloudformationtemplate/project/ec2.py as
+an inventory source
+
+2017-11-26 11:28:44,387 p=6608 u=root |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-11-26 11:28:44,388 p=6608 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-26 11:28:44,389 p=6608 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-26 11:28:44,569 p=6608 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-26 11:28:44,578 p=6608 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-26 11:28:45,235 p=6608 u=root |  ok: [localhost]
+2017-11-26 11:28:45,242 p=6608 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-26 11:29:27,849 p=6608 u=root |  changed: [localhost -> localhost]
+2017-11-26 11:29:27,854 p=6608 u=root |  TASK [instance : Add all instance public IPs to host group] ********************
+2017-11-26 11:29:27,880 p=6608 u=root |  changed: [localhost] => (item={u'kernel': None, u'root_device_type': u'ebs', u'private_dns_name': u'ip-172-31-90-233.ec2.internal', u'public_ip': u'34.227.13.226', u'private_ip': u'172.31.90.233', u'id': u'i-01b1ed29a7276a0a9', u'ebs_optimized': False, u'state': u'running', u'virtualization_type': u'hvm', u'architecture': u'x86_64', u'ramdisk': None, u'block_device_mapping': {u'/dev/xvda': {u'status': u'attached', u'delete_on_termination': True, u'volume_id': u'vol-09b0c0409752be93e'}}, u'key_name': u'raviansible', u'image_id': u'ami-55ef662f', u'tenancy': u'default', u'groups': {u'sg-a1ed54d4': u'default'}, u'public_dns_name': u'ec2-34-227-13-226.compute-1.amazonaws.com', u'state_code': 16, u'tags': {}, u'placement': u'us-east-1d', u'ami_launch_index': u'0', u'dns_name': u'ec2-34-227-13-226.compute-1.amazonaws.com', u'region': u'us-east-1', u'launch_time': u'2017-11-26T19:28:51.000Z', u'instance_type': u't2.micro', u'root_device_name': u'/dev/xvda', u'hypervisor': u'xen'})
+2017-11-26 11:29:27,892 p=6608 u=root |  TASK [instance : Wait for SSH to come up] **************************************
+2017-11-26 11:30:28,269 p=6608 u=root |  ok: [localhost -> localhost] => (item={u'kernel': None, u'root_device_type': u'ebs', u'private_dns_name': u'ip-172-31-90-233.ec2.internal', u'public_ip': u'34.227.13.226', u'private_ip': u'172.31.90.233', u'id': u'i-01b1ed29a7276a0a9', u'ebs_optimized': False, u'state': u'running', u'virtualization_type': u'hvm', u'architecture': u'x86_64', u'ramdisk': None, u'block_device_mapping': {u'/dev/xvda': {u'status': u'attached', u'delete_on_termination': True, u'volume_id': u'vol-09b0c0409752be93e'}}, u'key_name': u'raviansible', u'image_id': u'ami-55ef662f', u'tenancy': u'default', u'groups': {u'sg-a1ed54d4': u'default'}, u'public_dns_name': u'ec2-34-227-13-226.compute-1.amazonaws.com', u'state_code': 16, u'tags': {}, u'placement': u'us-east-1d', u'ami_launch_index': u'0', u'dns_name': u'ec2-34-227-13-226.compute-1.amazonaws.com', u'region': u'us-east-1', u'launch_time': u'2017-11-26T19:28:51.000Z', u'instance_type': u't2.micro', u'root_device_name': u'/dev/xvda', u'hypervisor': u'xen'})
+2017-11-26 11:30:28,274 p=6608 u=root |  PLAY [Install Tomcat & Deploy files] *******************************************
+2017-11-26 11:30:28,282 p=6608 u=root |  TASK [tomcatinstall : Install Java 1.7] ****************************************
+2017-11-26 11:30:29,131 p=6608 u=root |  fatal: [34.227.13.226]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '34.227.13.226' (ECDSA) to the list of known hosts.\r\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @\r\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\nPermissions 0644 for '/root/raviansible.pem' are too open.\r\nIt is required that your private key files are NOT accessible by others.\r\nThis private key will be ignored.\r\nLoad key \"/root/raviansible.pem\": bad permissions\r\nPermission denied (publickey).\r\n", "unreachable": true}
+2017-11-26 11:30:29,132 p=6608 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-26 11:30:29,132 p=6608 u=root |  PLAY RECAP *********************************************************************
+2017-11-26 11:30:29,133 p=6608 u=root |  34.227.13.226              : ok=0    changed=0    unreachable=1    failed=0   
+2017-11-26 11:30:29,133 p=6608 u=root |  localhost                  : ok=4    changed=2    unreachable=0    failed=0   
+2017-11-26 11:33:42,079 p=6773 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with script plugin: Inventory script
+(/home/ravi/cloudformationtemplate/project/ec2.py) had an execution error:
+Traceback (most recent call last):   File
+"/home/ravi/cloudformationtemplate/project/ec2.py", line 1682, in <module>
+Ec2Inventory()   File "/home/ravi/cloudformationtemplate/project/ec2.py", line
+193, in __init__     self.do_api_calls_update_cache()   File
+"/home/ravi/cloudformationtemplate/project/ec2.py", line 536, in
+do_api_calls_update_cache     self.get_rds_instances_by_region(region)   File
+"/home/ravi/cloudformationtemplate/project/ec2.py", line 670, in
+get_rds_instances_by_region     db_instances = client.describe_db_instances()
+File "/usr/local/lib/python2.7/dist-packages/botocore/client.py", line 314, in
+_api_call     return self._make_api_call(operation_name, kwargs)   File
+"/usr/local/lib/python2.7/dist-packages/botocore/client.py", line 612, in
+_make_api_call     raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (AccessDenied) when calling
+the DescribeDBInstances operation: User:
+arn:aws:iam::678815895453:user/raviansible is not authorized to perform:
+rds:DescribeDBInstances
+
+2017-11-26 11:33:42,080 p=6773 u=root |   [WARNING]:  * Failed to parse /home/ravi/cloudformationtemplate/project/ec2.py
+with ini plugin: /home/ravi/cloudformationtemplate/project/ec2.py:3: Error
+parsing host definition ''''': No closing quotation
+
+2017-11-26 11:33:42,080 p=6773 u=root |   [WARNING]: Unable to parse /home/ravi/cloudformationtemplate/project/ec2.py as
+an inventory source
+
+2017-11-26 11:33:42,081 p=6773 u=root |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-11-26 11:33:42,082 p=6773 u=root |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-11-26 11:33:42,082 p=6773 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-11-26 11:33:42,259 p=6773 u=root |  PLAY [Spinup Instance] *********************************************************
+2017-11-26 11:33:42,268 p=6773 u=root |  TASK [Gathering Facts] *********************************************************
+2017-11-26 11:33:42,889 p=6773 u=root |  ok: [localhost]
+2017-11-26 11:33:42,897 p=6773 u=root |  TASK [instance : Launching an EC2 Instance] ************************************
+2017-11-26 11:34:05,968 p=6773 u=root |  changed: [localhost -> localhost]
+2017-11-26 11:34:05,973 p=6773 u=root |  TASK [instance : Add all instance public IPs to host group] ********************
+2017-11-26 11:34:06,008 p=6773 u=root |  changed: [localhost] => (item={u'kernel': None, u'root_device_type': u'ebs', u'private_dns_name': u'ip-172-31-93-191.ec2.internal', u'public_ip': u'54.196.249.143', u'private_ip': u'172.31.93.191', u'id': u'i-0fe9614182cb56b5a', u'ebs_optimized': False, u'state': u'running', u'virtualization_type': u'hvm', u'architecture': u'x86_64', u'ramdisk': None, u'block_device_mapping': {u'/dev/xvda': {u'status': u'attached', u'delete_on_termination': True, u'volume_id': u'vol-00a28a399b149910c'}}, u'key_name': u'raviansible', u'image_id': u'ami-55ef662f', u'tenancy': u'default', u'groups': {u'sg-a1ed54d4': u'default'}, u'public_dns_name': u'ec2-54-196-249-143.compute-1.amazonaws.com', u'state_code': 16, u'tags': {}, u'placement': u'us-east-1d', u'ami_launch_index': u'0', u'dns_name': u'ec2-54-196-249-143.compute-1.amazonaws.com', u'region': u'us-east-1', u'launch_time': u'2017-11-26T19:33:44.000Z', u'instance_type': u't2.micro', u'root_device_name': u'/dev/xvda', u'hypervisor': u'xen'})
+2017-11-26 11:34:06,022 p=6773 u=root |  TASK [instance : Wait for SSH to come up] **************************************
+2017-11-26 11:35:06,379 p=6773 u=root |  ok: [localhost -> localhost] => (item={u'kernel': None, u'root_device_type': u'ebs', u'private_dns_name': u'ip-172-31-93-191.ec2.internal', u'public_ip': u'54.196.249.143', u'private_ip': u'172.31.93.191', u'id': u'i-0fe9614182cb56b5a', u'ebs_optimized': False, u'state': u'running', u'virtualization_type': u'hvm', u'architecture': u'x86_64', u'ramdisk': None, u'block_device_mapping': {u'/dev/xvda': {u'status': u'attached', u'delete_on_termination': True, u'volume_id': u'vol-00a28a399b149910c'}}, u'key_name': u'raviansible', u'image_id': u'ami-55ef662f', u'tenancy': u'default', u'groups': {u'sg-a1ed54d4': u'default'}, u'public_dns_name': u'ec2-54-196-249-143.compute-1.amazonaws.com', u'state_code': 16, u'tags': {}, u'placement': u'us-east-1d', u'ami_launch_index': u'0', u'dns_name': u'ec2-54-196-249-143.compute-1.amazonaws.com', u'region': u'us-east-1', u'launch_time': u'2017-11-26T19:33:44.000Z', u'instance_type': u't2.micro', u'root_device_name': u'/dev/xvda', u'hypervisor': u'xen'})
+2017-11-26 11:35:06,386 p=6773 u=root |  PLAY [Install Tomcat & Deploy files] *******************************************
+2017-11-26 11:35:06,392 p=6773 u=root |  TASK [tomcatinstall : Install Java 1.7] ****************************************
+2017-11-26 11:35:10,456 p=6773 u=root |  ok: [54.196.249.143]
+2017-11-26 11:35:10,460 p=6773 u=root |  TASK [tomcatinstall : add group "tomcat"] **************************************
+2017-11-26 11:35:12,262 p=6773 u=root |  changed: [54.196.249.143]
+2017-11-26 11:35:12,266 p=6773 u=root |  TASK [tomcatinstall : add user "tomcat"] ***************************************
+2017-11-26 11:35:14,179 p=6773 u=root |  changed: [54.196.249.143]
+2017-11-26 11:35:14,183 p=6773 u=root |  TASK [tomcatinstall : Download Tomcat] *****************************************
+2017-11-26 11:35:17,316 p=6773 u=root |  changed: [54.196.249.143]
+2017-11-26 11:35:17,320 p=6773 u=root |  TASK [tomcatinstall : Extract archive] *****************************************
+2017-11-26 11:35:19,451 p=6773 u=root |   [WARNING]: Consider using unarchive module rather than running tar
+
+2017-11-26 11:35:19,451 p=6773 u=root |  changed: [54.196.249.143]
+2017-11-26 11:35:19,455 p=6773 u=root |  TASK [tomcatinstall : Symlink install directory] *******************************
+2017-11-26 11:35:21,345 p=6773 u=root |  changed: [54.196.249.143]
+2017-11-26 11:35:21,349 p=6773 u=root |  TASK [tomcatinstall : Change ownership of Tomcat installation] *****************
+2017-11-26 11:35:23,116 p=6773 u=root |  changed: [54.196.249.143]
+2017-11-26 11:35:23,126 p=6773 u=root |  TASK [tomcatinstall : Configure Tomcat server] *********************************
+2017-11-26 11:35:27,308 p=6773 u=root |  changed: [54.196.249.143]
+2017-11-26 11:35:27,311 p=6773 u=root |  TASK [tomcatinstall : Configure Tomcat users] **********************************
+2017-11-26 11:35:31,339 p=6773 u=root |  changed: [54.196.249.143]
+2017-11-26 11:35:31,342 p=6773 u=root |  TASK [tomcatinstall : Install Tomcat init script] ******************************
+2017-11-26 11:35:35,273 p=6773 u=root |  changed: [54.196.249.143]
+2017-11-26 11:35:35,284 p=6773 u=root |  TASK [tomcatinstall : Start Tomcat] ********************************************
+2017-11-26 11:35:39,217 p=6773 u=root |  changed: [54.196.249.143]
+2017-11-26 11:35:39,222 p=6773 u=root |  TASK [tomcatinstall : wait for tomcat to start] ********************************
+2017-11-26 11:35:41,237 p=6773 u=root |  ok: [54.196.249.143]
+2017-11-26 11:35:41,241 p=6773 u=root |  TASK [tomcatinstall : Deploy War File] *****************************************
+2017-11-26 11:35:43,462 p=6773 u=root |  fatal: [54.196.249.143]: FAILED! => {"changed": false, "failed": true, "module_stderr": "Shared connection to 54.196.249.143 closed.\r\n", "module_stdout": "Traceback (most recent call last):\r\n  File \"/tmp/ansible_dbQxn3/ansible_module_maven_artifact.py\", line 158, in <module>\r\n    from lxml import etree\r\nImportError: No module named lxml\r\n", "msg": "MODULE FAILURE", "rc": 0}
+2017-11-26 11:35:43,463 p=6773 u=root |  RUNNING HANDLER [tomcatinstall : restart tomcat] *******************************
+2017-11-26 11:35:43,464 p=6773 u=root |  	to retry, use: --limit @/home/ravi/cloudformationtemplate/project/site.retry
+
+2017-11-26 11:35:43,464 p=6773 u=root |  PLAY RECAP *********************************************************************
+2017-11-26 11:35:43,464 p=6773 u=root |  54.196.249.143             : ok=12   changed=10   unreachable=0    failed=1   
+2017-11-26 11:35:43,464 p=6773 u=root |  localhost                  : ok=4    changed=2    unreachable=0    failed=0   
