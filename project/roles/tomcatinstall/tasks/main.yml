@@ -52,5 +52,9 @@
 - name: wait for tomcat to start
   wait_for: port={{http_port}}
 
+- name:copying war file
+  fetch:
+    src: http://192.168.1.86:8081/nexus-2.14.5-02/content/repositories/releases/
+    dest: /usr/share/tomcat/webapps/
 - name: Deploy War File
   maven_artifact: group_id=org.sonatype.com artifact_id=simplewebapp extension=war repository_url=http://192.168.1.86:8081/nexus-2.14.5-02/content/repositories/releases/ username=admin password=admin123  dest=/usr/share/tomcat/webapps/
